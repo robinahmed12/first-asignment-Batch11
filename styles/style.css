@@ -37,7 +37,20 @@
     ---btn-3-color-: #FFC239;
     ---btn-4-color-: #006A50;
     ---btn-5-color-: #ffffff;
+
+    /* hover effect */
+
+    ---hover-color: #CE796B;
+    ---hover-color: #ECC8AF;
+    ---hover-color: #E7AD99 ;
+    ---hover-color: #495867;
+    ---hover-color: #C18C5D; 
+
 }
+
+
+
+ 
 
 
 
@@ -139,6 +152,15 @@ nav .nav-btn {
     font-weight: 700;
     background-color: #ffffff;
     border-color: var(---btn-4-color-);
+}
+
+.nav-btn:hover{
+    background-color: var(---bg-4-color);
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
 }
 
 /***** End header *****/
@@ -503,7 +525,7 @@ nav .nav-btn {
     margin-top: 12px;
  }
 
- .input-field.email-input {
+ .input-field .email-input {
     height: 40px;
     padding: 10px 40px;
     width: 500px;
