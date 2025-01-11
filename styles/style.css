@@ -548,7 +548,7 @@ nav .nav-btn {
     margin-top: 40px;
 }
 
-.donation-list .donate-btn:hover{
+.donation-list .primary-button:hover{
     background-color: var(---hover-5-color);
     transition: transform 0.4s;
     -webkit-transition: transform 0.4s;
