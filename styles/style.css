@@ -1,0 +1,478 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fira Sans", serif;
+}
+
+
+/* global colors */
+
+:root {
+
+    /* text color */
+    --title-color: #0E0E0E;
+    ---sub-title-color: rgba(14, 14, 14, 0.7);
+    ---para-color: rgba(14, 14, 14, 0.7);
+    ---btn-text-color: #FFFFFF;
+    ---project-title-color: rgba(14, 14, 14, 0.8);
+    ---amount-text-color: rgba(14, 14, 14, 0.3);
+
+
+    /* background color */
+    ---bg-1-color: rgba(84, 144, 245, 0.2);
+    ---bg-2-color: rgba(198, 228, 214, 1);
+    ---bg-3-color: rgba(247, 235, 207, 1);
+    ---bg-4-color: #C6E4D6;
+    ---bg-5-color: #006A50;
+    ---bg-6-color: #ffffff;
+    ---bg-7-color: #F5F5F5;
+
+
+    /* button background color */
+    ---btn-1-color-: #5490F5;
+    ---btn-2-color-: #09A15C;
+    ---btn-3-color-: #FFC239;
+    ---btn-4-color-: #006A50;
+    ---btn-5-color-: #ffffff;
+}
+
+
+
+
+/* Reset styles */
+
+section {
+    max-width: 114%;
+    margin: 80px 160px;
+}
+
+
+
+body {
+    background-color: var(---bg-7-color);
+
+}
+
+
+
+/* reuseable styles */
+.title {
+    font-size: 40px;
+    font-weight: bold;
+    color: var(--title-color);
+    margin-bottom: 15px;
+
+}
+
+.sub-title {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(---sub-title-color);
+    margin-bottom: 24px;
+}
+
+
+.project-img {
+    width: 62px;
+    height: 62px;
+    color: var(---bg-6-color);
+    margin-bottom: 24px;
+}
+
+.project-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: var(---project-title-color);
+    margin-bottom: 16px;
+}
+
+.description {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(---para-color);
+    line-height: 24px;
+    margin-bottom: 28px;
+}
+
+.vision-box-2 .primary-button {
+    margin-top: 22px;
+}
+
+
+.primary-button {
+    padding: 11px 20px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(---bg-6-color);
+    border: none;
+    background-color: var(---bg-5-color);
+}
+
+
+
+/***** header *****/
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 160px;
+    align-items: center;
+
+}
+
+nav .logo {
+    font-size: 32px;
+    font-weight: bold;
+    color: var(--title-color);
+    margin: 24px 0;
+}
+
+nav .nav-btn {
+    margin: 24px 0;
+    padding: 15px 30px;
+    color: #006A50;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #ffffff;
+    border-color: var(---btn-4-color-);
+}
+
+/***** End header *****/
+
+/***** hero *****/
+.hero-section {}
+.hero-parent {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    gap: 64px;
+    background-color: var(---bg-4-color);
+    border-radius: 24px;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    -ms-border-radius: 24px;
+    -o-border-radius: 24px;
+<<<<<<< HEAD
+    height: 500px;
+    padding: 20px 30px;
+=======
+    height: 600px;
+    padding: 80px 100px;
+>>>>>>> a50edbd405df580829f92f26f225c250a83e9118
+   
+    margin-top: 20px;
+
+
+}
+
+
+
+.hero-content .hero-sub-title {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+    color: rgb(14, 14, 14, 0.50);
+}
+
+.hero-content .hero-title {
+    font-size: 48px;
+    font-weight: bold;
+    color: var(--title-color);
+
+    
+
+}
+
+.hero-content .hero-btn {
+    padding: 17px 34px;
+    background-color: var(---bg-5-color);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    margin-top: 30px;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.hero-content .hero-btn:hover {
+    background-color: var(---btn-3-color-);
+    transition: 0.3s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+
+}
+
+.hero-content .hero-img {
+    width: 474px;
+    height: 400px;
+}
+
+/***** End hero *****/
+
+
+/***** vision *****/
+
+.vision-section .vision-list {
+    display: flex;
+    gap: 24px;
+    margin: 32px 0;
+
+}
+
+.vision-list .vision-box-1 {
+    padding: 32px;
+    width: 427px;
+    height: 325px;
+    background-color: var(---bg-1-color);
+    height: 320px;
+}
+
+.vision-list .vision-box-2 {
+    padding: 32px;
+    width: 427px;
+    height: 325px;
+    background-color: var(---bg-2-color);
+    height: 320px;
+}
+
+.vision-list .vision-box-3 {
+    padding: 32px;
+    width: 427px;
+    height: 325px;
+    background-color: var(---bg-3-color);
+    height: 320px;
+}
+
+.vision-box-1 .primary-button {
+    background-color: var(---btn-1-color-);
+}
+
+.vision-box-2 .primary-button {
+    background-color: var(---btn-2-color-);
+    margin-top: -20px;
+}
+
+.vision-box-3 .primary-button {
+    background-color: var(---btn-3-color-);
+}
+
+
+
+.vision-section .speech {
+    height: 300px;
+    border: 1px solid var(---bg-6-color);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    background-color: var(---bg-6-color);
+    padding: 48px 15px;
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-size: 64px 64px;
+    background-position-x: 40px;
+    background-position-y: 48px;
+    text-align: start;
+
+
+
+
+}
+
+.speech .speech-detail {
+    margin: 24px 30px;
+}
+
+.speech-detail .description {
+    margin-bottom: 15px;
+}
+
+
+.speech-detail .name {
+    font-size: 24px;
+    font-weight: 600px;
+    line-height: 24px;
+    color: var(---project-title-color);
+    margin-bottom: 8px;
+}
+
+.speech-detail .sub-title {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(---sub-title-color);
+}
+
+/***** End vision *****/
+
+
+/***** news section *****/
+.news-section .news-parent {
+    margin-top: 80px;
+}
+
+
+.news-parent .news-box {
+    display: flex;
+    gap: 32px;
+    padding: 48px;
+    border: 1px solid var(---bg-6-color);
+    background-color: #FFFFFF;
+    margin-top: 32px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.news-box .news-img img {
+    width: 408px;
+    height: 306px;
+    border-radius: 24px;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    -ms-border-radius: 24px;
+    -o-border-radius: 24px;
+}
+
+.news-box .news-content {
+    width: 744px;
+    height: 290px;
+    margin: 0 32px;
+}
+
+.news-content .news-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: var(---project-title-color);
+    margin-bottom: 12px;
+}
+
+.news-content .newspaper-img {
+    width: 134px;
+    height: 40px;
+    margin-bottom: 12px;
+
+}
+
+.news-time {
+    display: flex;
+    gap: 12px;
+    color: var(---sub-title-color);
+    margin-bottom: 12px;
+    font-size: 16px;
+}
+
+/***** End news section *****/
+
+
+/***** donation *****/
+
+.donate-section .donate-heading {
+    text-align: center;
+    height: 120px;
+    margin-bottom: 40px;
+}
+
+.donate-heading .title {
+    height: 48px;
+}
+
+.donate-heading .sub-title {
+    margin: 24px 88px;
+    height: 48px;
+    line-height: 24px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.donate-section {
+    height: 464px;
+
+}
+
+.donate-section .donation-list .donate-amount {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+
+}
+
+.donate-amount .donation-box {
+    padding: 40px;
+    width: 264px;
+    height: 128px;
+    background-color: var(---bg-6-color);
+    border: 1px solid var(---bg-6-color);
+    border-radius: 18px;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    -ms-border-radius: 18px;
+    -o-border-radius: 18px;
+    margin-top: 12px;
+}
+
+
+.donation-box .amount {
+    text-align: center;
+    align-self: center;
+    width: 163px;
+    height: 48px;
+    margin: 12px 0;
+    font-size: 40px;
+    font-weight: bold;
+    color: var(---project-title-color);
+}
+
+.donation-list .other-amount {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    border: 1px solid var(---bg-6-color);
+    background-color: #ffffff;
+    height: 64px;
+    margin: 40px 160px;
+    padding: 20px 40px;
+
+}
+
+.donation-list .donate-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.other-amount .amount-text {
+    width: 187px;
+    height: 24px;
+    margin: 0 12px;
+    font-size: 20px;
+    font-style: 400;
+    color: var(---amount-text-color);
+}
+
+
+
+
+
+/***** End donation *****/
