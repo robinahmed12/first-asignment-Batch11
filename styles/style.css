@@ -40,11 +40,11 @@
 
     /* hover effect */
 
-    ---hover-color: #CE796B;
-    ---hover-color: #ECC8AF;
-    ---hover-color: #E7AD99;
-    ---hover-color: #495867;
-    ---hover-color: #C18C5D;
+    ---hover-1-color: #CE796B;
+    ---hover-2-color: #ECC8AF;
+    ---hover-3-color: #E7AD99;
+    ---hover-4-color: #495867;
+    ---hover-5-color: #C18C5D;
 
 }
 
@@ -151,16 +151,22 @@ nav .nav-btn {
     font-size: 18px;
     font-weight: 700;
     background-color: #ffffff;
-    border-color: var(---btn-4-color-);
+    border: 1px solid var(---bg-4-color) ;
 }
 
 .nav-btn:hover {
-    background-color: var(---bg-4-color);
-    transition: 0.4s;
-    -webkit-transition: 0.4s;
-    -moz-transition: 0.4s;
-    -ms-transition: 0.4s;
-    -o-transition: 0.4s;
+    background-color: var(---hover-4-color);
+    color: var(---bg-6-color);
+    transition:  transform 0.4s;
+    -webkit-transition:  transform 0.4s;
+    -moz-transition:  transform 0.4s;
+    -ms-transition:  transform 0.4s;
+    -o-transition:  transform 0.4s;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
 }
 
 /***** End header *****/
@@ -220,10 +226,16 @@ nav .nav-btn {
 .hero-content .hero-btn:hover {
     background-color: var(---btn-3-color-);
     transition: 0.3s;
-    -webkit-transition: 0.5s;
-    -moz-transition: 0.3s;
-    -ms-transition: 0.3s;
-    -o-transition: 0.3s;
+    transition: transform 0.4s;
+    -webkit-transition: transform 0.4s;
+    -moz-transition: transform 0.4s;
+    -ms-transition: transform 0.4s;
+    -o-transition: transform 0.4s;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
 
 }
 
@@ -272,14 +284,61 @@ nav .nav-btn {
     background-color: var(---btn-1-color-);
 }
 
+.vision-box-1 .primary-button:hover{
+    background-color: var(---hover-3-color);
+    transition: transform 0.4s;
+    -webkit-transition: transform 0.4s;
+    -moz-transition: transform 0.4s;
+    -ms-transition: transform 0.4s;
+    -o-transition: transform 0.4s;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+
+
 .vision-box-2 .primary-button {
     background-color: var(---btn-2-color-);
     margin-top: -20px;
 }
 
+.vision-box-2 .primary-button:hover{
+    background-color: var(---hover-4-color);
+    transition: transform 0.4s;
+    -webkit-transition: transform 0.4s;
+    -moz-transition: transform 0.4s;
+    -ms-transition: transform 0.4s;
+    -o-transition: transform 0.4s;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+
+
 .vision-box-3 .primary-button {
     background-color: var(---btn-3-color-);
 }
+
+.vision-box-3 .primary-button:hover{
+    background-color: var(---hover-1-color);
+    transition: transform 0.4s;
+    -webkit-transition: transform 0.4s;
+    -moz-transition: transform 0.4s;
+    -ms-transition: transform 0.4s;
+    -o-transition: transform 0.4s;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
 
 
 
@@ -390,6 +449,20 @@ nav .nav-btn {
     font-size: 16px;
 }
 
+.news-content .news-btn:hover{
+    background-color: var(---hover-4-color);
+    transition: transform 0.4s;
+    -webkit-transition: transform 0.4s;
+    -moz-transition: transform 0.4s;
+    -ms-transition: transform 0.4s;
+    -o-transition: transform 0.4s;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
 /***** End news section *****/
 
 
@@ -471,6 +544,20 @@ nav .nav-btn {
     align-items: center;
     text-align: center;
     margin-top: 40px;
+}
+
+.donation-list .donate-btn:hover{
+    background-color: var(---hover-5-color);
+    transition: transform 0.4s;
+    -webkit-transition: transform 0.4s;
+    -moz-transition: transform 0.4s;
+    -ms-transition: transform 0.4s;
+    -o-transition: transform 0.4s;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
 }
 
 .other-amount .amount-text {
