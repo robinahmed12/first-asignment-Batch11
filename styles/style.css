@@ -483,9 +483,7 @@ nav .nav-btn {
 }
 
 
- .newsletter-parent .newsletter {
-    
- }
+
  .newsletter-parent .title {
     font-size: 40px;
     height: 48px;
@@ -500,12 +498,12 @@ nav .nav-btn {
     
  }
 
- .newsletter .input-feild {
+ .newsletter .input-field {
     height: 52px;
     margin-top: 12px;
  }
 
- .input-feild .email-input {
+ .input-field.email-input {
     height: 40px;
     padding: 10px 40px;
     width: 500px;
@@ -513,7 +511,7 @@ nav .nav-btn {
  }
 
 
- .input-feild .primary-button {
+ .input-field .primary-button {
     margin-left: -5px;
    margin-top: 7px;
      border-radius: 0 8px 8px 0 ;
