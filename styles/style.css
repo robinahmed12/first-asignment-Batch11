@@ -158,11 +158,8 @@ nav .nav-btn {
     -moz-border-radius: 24px;
     -ms-border-radius: 24px;
     -o-border-radius: 24px;
-<<<<<<< HEAD
     height: 600px;
     padding: 20px 30px;
-=======
->>>>>>> 4a3ba0e873971971e68b99e64e10cd8a29b647b5
     margin-top: 20px;
 
 }
@@ -464,7 +461,70 @@ nav .nav-btn {
 }
 
 
-
-
-
 /***** End donation *****/
+
+
+/***** newsletter *****/ 
+
+.newsletter-section {
+    text-align: center;
+   
+}
+
+ .newsletter-section .newsletter-parent {
+    height: 320px;
+    background-color: var(---bg-4-color);
+    padding: 50px 100px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+
+ .newsletter-parent .newsletter {
+    
+ }
+ .newsletter-parent .title {
+    font-size: 40px;
+    height: 48px;
+   
+ }
+
+ .newsletter-parent .sub-title {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    margin: 0 19px;
+    
+ }
+
+ .newsletter .input-feild {
+    height: 52px;
+    margin-top: 12px;
+ }
+
+ .input-feild .email-input {
+    height: 40px;
+    padding: 10px 40px;
+    width: 500px;
+    border: none;
+ }
+
+
+ .input-feild .primary-button {
+    margin-left: -5px;
+   margin-top: 7px;
+     border-radius: 0 8px 8px 0 ;
+    -webkit-border-radius: 0 8px 8px 0 ;
+    -moz-border-radius: 0 8px 8px 0 ;
+    -ms-border-radius: 0 8px 8px 0 ;
+    -o-border-radius: 0 8px 8px 0 ;
+    padding: 10px 20px;
+}
+
+.newsletter .description {
+    margin-top: 16px;
+}
+ /***** End newsletter *****/
